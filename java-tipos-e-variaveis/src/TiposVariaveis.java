@@ -15,5 +15,20 @@ public class TiposVariaveis {
             String cep2 = "0123070923"; // Aqui  o "0" será considerado
             float pi = 3.14F; // Encerrar com F, no tipo float
             long cpf = 98765432109L; // Encerrar com L, tipo long
+
+        
+        // Limite de por recurso por escopo de tipo na memória
+            short numeroCurto = 1;
+            int numeroNormal1 = numeroCurto;
+            short numeroCurto2 = (short) numeroNormal1; // usando cast há uma conversão para po tipo shot
+
+        // 'final' palavra reservada para constantes
+
+            final double VALOR_DE_PI = 3.14;
+            
+            VALOR_DE_PI = 10.75; // Aqui um será mostrado como erro pois VALOR_DE_PI foi assinada como 'final'
+            
+            System.out.println(VALOR_DE_PI);
+
     }
 }
