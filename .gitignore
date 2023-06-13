@@ -24,4 +24,4 @@ hs_err_pid*
 replay_pid*
 
 # arquivos configuração
-**.json
+/java-tipos-e-variaveis/.vscode/*
