@@ -25,3 +25,4 @@ replay_pid*
 
 # arquivos configuração
 *.json
+./curso-java/java-tipos-e-variaveis/.vscode/*
